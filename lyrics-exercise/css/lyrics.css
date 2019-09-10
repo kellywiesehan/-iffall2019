@@ -1,0 +1,42 @@
+body{
+	width:800px;
+	max-width:80%;
+	margin: auto;
+	background-color: #1a2ce8
+
+	
+
+
+}
+section{
+	font-family:"Arial"; 
+	color: white;
+	margin: 1em 0 3em 0;
+	font-size:10pt;
+	;
+	
+}
+
+header{
+	font-family:"Arial";
+	text-transform: uppercase;
+	color:white;
+}
+
+h2{
+	font-family:"Arial";
+	text-transform: uppercase;
+	color:white;
+}
+
+img{
+	width:500px;
+	height:500px;
+
+
+
+}
+div{
+	position:center;
+
+}
