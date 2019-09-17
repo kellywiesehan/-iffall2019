@@ -1,0 +1,71 @@
+body{
+	width:800px;
+	max-width:80%;
+	margin: auto;
+	background-color: #1a2ce8
+
+	
+
+
+}
+section{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	color: white;
+	margin: 1em 0 3em 0;
+	font-size:10pt;
+
+	;
+	
+}
+
+header{
+	font-family: titling-gothic-fb-extended, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
+	text-transform: uppercase;
+	color:white;
+}
+
+h2{
+	font-family: titling-gothic-fb-extended, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color:white;
+	padding-bottom: 3em;
+}
+
+img{
+	width:500px;
+	height:500px;
+}
+div{
+	position:center;
+}
+
+h3{
+	font-family: 'Ramabhadra', sans-serif;
+	color: rgb(255, 192, 219);
+	font-size: 12pt;
+	margin: 1em 0 3m 0;
+	text-transform: uppercase;
+
+}
+
+h4{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: rgb(253, 79, 154)
+}
+
+
+
+
+
+
+
