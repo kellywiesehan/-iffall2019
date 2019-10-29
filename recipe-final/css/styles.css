@@ -1,0 +1,105 @@
+body{
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: auto;
+	padding: 50px 20px 0px 20px;
+	background-color: rgb(247, 241, 223);
+
+
+}
+
+h1{
+	font-size: 48px;
+	line-height: 3rem;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-family: adobe-caslon-pro, serif;
+	
+}
+
+h2{
+	font-size: 40px;
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 400;
+	margin: auto;
+	padding-top: 60px;
+}
+h3{
+	font-family: adobe-caslon-pro, serif;
+	padding-bottom: 20px;
+	padding-top: 30px;
+	font-size: 48px;
+	line-height: 3rem;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	
+	
+}
+
+hr{
+	display: block;
+    width: 300px;
+margin-left: auto;
+margin-right: auto;
+height: 1px;
+background-color:black;
+margin-top: 40px;
+}
+
+section#img1{
+	margin: auto;
+	padding-top: 15px;
+
+}
+
+img{
+	width: 100%;
+
+}
+
+div.time{
+	font-size: 18px;
+	display: inline-block;
+	width: 50%;
+}
+
+div.yeild{
+	font-size: 18px;
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+
+}
+
+section.ingredients{
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal
+	font-size 20px;
+	line-height: 2rem;
+}
+section.directions{
+	font-family: proxima-nova, sans-serif;
+	font-weight: 300;
+	font-style: normal
+	font-size 20px;
+	line-height: 2rem;
+}
+
+.directions li{
+	padding-bottom: 20px;
+}
+
+img2{
+	padding-bottom: 15px;
+}
+
+footer{
+	font-size: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+}
