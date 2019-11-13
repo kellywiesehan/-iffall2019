@@ -1,0 +1,223 @@
+html, body{
+	height: 100%;
+}
+
+a{
+	position:absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	z-index:10;
+}
+.card1{
+
+	font-family: itc-american-typewriter, serif;
+	font-weight: 500;
+	font-style: normal;
+	background-image: url(../images/michael_background.png);
+	background-size: cover;
+	background-position: 20%;
+
+}
+
+.card2{
+	font-family: itc-american-typewriter, serif;
+	font-weight: 500;
+	font-style: normal;
+	background-image: url(../images/kelly_background.png);
+	background-size: cover;
+	background-position: 80%;
+
+}
+.card3{
+	font-family: itc-american-typewriter, serif;
+	font-weight: 500;
+	font-style: normal;
+	background-image: url(../images/angela_background.png);
+	background-size: cover;
+	background-position: 20%;
+
+}
+
+.quote{
+	font-size: 40pt;}
+
+
+
+div.images{
+	height:100px;
+	width: 300px;
+}
+
+.quote-container1{
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	width: 40%;
+	font-size: 50px;
+}
+.attribution1{
+	font-size: 35px;
+	left: 80%;
+	padding-top: 20px;
+}
+
+
+
+
+.quote-container2{
+	position: absolute;
+	right: 40%;
+	top: 30%;
+	width: 45%;
+	font-size: 50px;
+	color: rgb(255, 238, 204) ;
+}
+.attribution2{
+	font-size: 35px;
+	left: 80%;
+	padding-top: 10px;
+}
+
+
+.quote-container3{
+	position: absolute;
+	left: 44%;
+	top: 30%;
+	width: 50%;
+	font-size: 50px;
+	color: rgb(102, 0, 51);
+}
+.attribution3{
+	font-size: 35px;
+	left: 80%;
+	padding-top: 10px;
+}
+
+
+
+@media( max-width: 1075px ){
+	.quote-container1{
+		font-size: 30px;
+	}
+	.attribution1{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	@media( max-width: 779px ){
+	.quote-container1{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	.attribution1{
+		font-size: 15px;
+		padding-top: 30px;
+	}
+@media( max-width: 640px ){
+	.quote-container1{
+		font-size: 15px;
+	}
+	.attribution1{
+		font-size: 10px;
+		padding-top: 30px;
+	}
+@media( min-width: 375px ){
+	.quote-container1{
+		font-size: 14px;
+		right: 80%;
+		top: 25%;
+	}
+	.attribution1{
+		font-size: 10px;
+		padding-top: 20px;
+	}
+	.card1{
+		background-position: 28%;
+	}
+}
+@media( max-width: 1000px ){
+	.quote-container2{
+		font-size: 30px;
+	}
+	.attribution2{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+}
+
+@media( max-width: 640px ){
+	.quote-container2{
+		font-size: 15px;
+		right:55%;
+		width: 30%;
+	}
+	.attribution2{
+		font-size: 10px;
+		padding-top: 30px;
+	}
+	.card2{
+		background-position: 80%;
+	}
+@media( max-width: 1075px ){
+	.quote-container3{
+		font-size: 30px;
+	}
+	.attribution3{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	@media( max-width: 779px ){
+	.quote-container3{
+		font-size: 20px;
+		padding-top: 20px;
+	}
+	.attribution3{
+		font-size: 15px;
+		padding-top: 30px;
+	}
+@media( max-width: 640px ){
+	.quote-container3{
+		font-size: 15px;
+	}
+	.attribution3{
+		font-size: 10px;
+		padding-top: 30px;
+	}
+@media( min-width: 375px ){
+	.quote-container3{
+		font-size: 14px;
+		right: 80%;
+		top: 25%;
+	}
+	.attribution3{
+		font-size: 10px;
+		padding-top: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
