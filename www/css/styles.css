@@ -23,6 +23,12 @@ section{
 
 }
 
+section.intro{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+
 h1{
 	font-family: 'Roboto Mono', monospace;
 	color: white;
@@ -37,7 +43,7 @@ h2{
 	font-weight: 300;font-size: 250px;
 	letter-spacing: 75px;
 	font-weight: 400;
-	position: absolute;
+	/*position: absolute;*/
 	top: 2.5%;
 	margin: 50px 0 0 120px;
 }
@@ -48,24 +54,25 @@ content{
 	right: 30%;
 }
 
-img{
-	position: absolute;
-	left: 30%;
-}
+
 
 .intro img{
-	position: absolute;
+	/*position: absolute;
 	left: 52%;
 	top: 32%;
-	height: 450px;
+	height: 450px;*/
+	width: 50%;
+	float: right;
 }
 
 .intro_content{
 	position: absolute;
 	right: 57%;
-	top: 45%;
+	/*top: 60%;*/
+	padding-top: 23%;
 	width: 35%;
 	font-size: 20px;
+	
 
 }
 
