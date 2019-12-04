@@ -1,0 +1,129 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#343a4f+20,343a4f+20,c87568+100 */
+	background: rgb(52,58,79); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(52,58,79,1) 20%, rgba(52,58,79,1) 20%, rgba(200,117,104,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(52,58,79,1) 20%,rgba(52,58,79,1) 20%,rgba(200,117,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(52,58,79,1) 20%,rgba(52,58,79,1) 20%,rgba(200,117,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343a4f', endColorstr='#c87568',GradientType=0 ); /* IE6-9 */
+
+	font-family: acumin-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	background-size: cover;
+}
+
+section{
+	position:relative;
+	/*height: 1000px;*/
+
+}
+
+section.intro{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-weight: 300;
+	margin: 50px 0 0 120px;
+}
+
+
+h2{
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-weight: 300;font-size: 250px;
+	letter-spacing: 75px;
+	font-weight: 400;
+	/*position: absolute;*/
+	top: 2.5%;
+	margin: 50px 0 0 120px;
+}
+	
+
+content{
+	/*position: absolute;*/
+	right: 30%;
+}
+
+
+
+.intro img{
+	/*position: absolute;
+	left: 52%;
+	top: 32%;
+	height: 450px;*/
+	width: 50%;
+	float: right;
+}
+
+.intro_content{
+	position: absolute;
+	right: 57%;
+	/*top: 60%;*/
+	padding-top: 23%;
+	width: 35%;
+	font-size: 20px;
+	
+
+}
+
+.orbit img{
+	position: absolute;
+	left: 30%;
+	top: 5%;
+	height: 780px;
+}
+
+.orbit_content{
+	position: absolute;
+	right: 68%;
+	top: 30%;
+	width: 25%;
+	font-size: 20px;
+
+}
+
+.elements img{
+	position: absolute;
+	left: 50%;
+	top: 24%;
+	height: 400px;
+}
+
+.elements_content{
+	/*position: absolute;*/
+	right: 68%;
+	top: 30%;
+	width: 25%;
+	font-size: 20px;
+
+}
+
+section.elements{
+	padding: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

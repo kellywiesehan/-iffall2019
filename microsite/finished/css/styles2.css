@@ -1,0 +1,266 @@
+.clearer{
+	clear: both;
+}
+
+/*html, body{
+	height: 100%;
+}*/
+
+body{
+	background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#343a4f+20,343a4f+20,c87568+100 */
+	background: rgb(52,58,79); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(52,58,79,1) 20%, rgba(52,58,79,1) 20%, rgba(200,117,104,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(52,58,79,1) 20%,rgba(52,58,79,1) 20%,rgba(200,117,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(52,58,79,1) 20%,rgba(52,58,79,1) 20%,rgba(200,117,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343a4f', endColorstr='#c87568',GradientType=0 ); /* IE6-9 */
+
+	font-family: acumin-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	background-size: cover;
+	margin: 50px 0 0 120px;
+}
+
+
+
+section{
+	position:relative;
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-weight: 300;
+	font-size: 20px;
+	position: center;
+
+	
+
+}
+
+h2{
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+	font-weight: 400;
+	font-size: 200px;
+	letter-spacing: 100px;
+	margin: auto;
+	padding-bottom: 100px;
+	padding-top: 30px;
+
+}
+
+@media (max-width: 1200px){
+	h2{
+		letter-spacing: 75px;
+		padding-bottom: : 20px;
+	}
+}
+
+@media (max-width: 850px){
+	h2{
+		font-size: 80px;
+		letter-spacing: 40px;
+		padding-bottom: 10px;
+
+	}
+}
+
+section{
+	position: relative;
+}
+
+.intro_content{
+	display: block;
+	font-size: 20px;
+	width: 50%;
+}
+
+
+@media (max-width: 600px){
+	font-size: 15px;
+}
+
+.intro img{
+	position: absolute;
+	width: 50%;
+	top: 35%;
+	right: 0%;
+	/*float: right;*/
+
+}
+@media (max-width: 600px){
+	section.intro img{
+		position: relative;
+		width: 100%;
+		top: 0%;
+	}
+
+	.intro_content{
+		width: 100%;
+	}
+}
+
+.orbit{
+	/*padding-top: 400px;*/
+}
+
+.orbit h1{
+	padding-bottom: 200px;
+	position: center;
+
+}
+
+.orbit{
+	padding-top: 100px;
+}
+.orbit_content{
+	/*padding-top: 300px;*/
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 50%;
+}
+.orbit img{
+	position: absolute;
+	width: 50%;
+	top: 45%;
+	right: 0%;
+	/*width: 50%;
+	float: right;*/
+}
+@media (max-width: 600px){
+	.orbit img{
+		float: none;
+		width: 100%;
+	}
+}
+
+.elements img{
+	position: absolute;
+	width: 50%;
+	top: 70%;
+	right: 0%;
+	/*width: 50%;
+	float: right;*/
+}
+
+
+
+.elements{
+	padding-top: 400px;
+
+}
+
+.elements_content{
+	font-size: 20px;
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 40%;
+
+}
+
+.elements h1{
+	padding-bottom: 200px;
+}
+
+
+.climate{
+	padding-top: 300px
+
+}
+
+.climate img{
+	position: absolute;
+	width: 50%;
+	top: 60%;
+	right: 0%;
+
+}
+
+.climate_content{
+	font-size: 20px;
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 50%;
+	padding-top: 150px;
+
+}
+
+.moons{
+	padding-top: 300px
+
+}
+
+.moons_content{
+	font-size: 20px;
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 50%;
+
+}
+
+.deimos_content{
+	/*position: absolute;
+	top: 50%;*/
+	font-size: 20px;
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 50%;
+}
+
+.phobos_content{
+	/*position: absolute;
+	top: 85%;*/
+	font-size: 20px;
+	font-size: 20px;
+	display: block;
+	font-size: 20px;
+	width: 50%
+
+}
+
+.deimos img{
+	/*position: absolute;
+	width: 50%;
+	top: 60%;
+	right: 0%;
+*/
+width: 50%;
+float: center;
+}
+
+.phobos img{
+	/*position: absolute;
+	width: 50%;
+	top: 60%;
+	right: 0%;*/
+	width: 50%;
+	float: center;
+
+}
+
+footer{
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
